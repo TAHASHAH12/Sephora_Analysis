@@ -1,0 +1,640 @@
+{
+ "site": {
+  "products": 9841,
+  "brands": 390,
+  "categories": 251,
+  "homepageTypes": [
+   "Organization",
+   "WebSite",
+   "ItemList",
+   "SiteNavigationElement",
+   "LoyaltyProgram",
+   "ContactPoint",
+   "PostalAddress",
+   "SearchAction"
+  ]
+ },
+ "brandCoverage": {
+  "resolved": 99,
+  "total": 390,
+  "pctLo": 25,
+  "pctHi": 31,
+  "recall": 81,
+  "controlN": 26,
+  "controlOk": 21,
+  "controlMiss": [
+   "Tatcha",
+   "La Mer",
+   "Valentino",
+   "Origins",
+   "Murad"
+  ],
+  "missingBig": [
+   {
+    "name": "Oribe",
+    "products": 78,
+    "near": "Oribe"
+   },
+   {
+    "name": "Sephora Collection",
+    "products": 73,
+    "near": ""
+   },
+   {
+    "name": "Davines",
+    "products": 58,
+    "near": ""
+   },
+   {
+    "name": "Kerastase",
+    "products": 56,
+    "near": "K\u00e9rastase"
+   },
+   {
+    "name": "Cyklar",
+    "products": 42,
+    "near": "Cyklar"
+   },
+   {
+    "name": "Kenra Professional",
+    "products": 41,
+    "near": ""
+   },
+   {
+    "name": "Dr Barbara Sturm",
+    "products": 36,
+    "near": ""
+   },
+   {
+    "name": "Virtue",
+    "products": 36,
+    "near": "Virtue"
+   },
+   {
+    "name": "Ouai Haircare",
+    "products": 35,
+    "near": ""
+   },
+   {
+    "name": "Rare Beauty By Selena Gomez",
+    "products": 34,
+    "near": ""
+   },
+   {
+    "name": "Necessaire",
+    "products": 34,
+    "near": "pocket necessaries"
+   },
+   {
+    "name": "Pureology",
+    "products": 33,
+    "near": "Pureology"
+   },
+   {
+    "name": "Color Wow",
+    "products": 30,
+    "near": ""
+   },
+   {
+    "name": "Tatcha",
+    "products": 28,
+    "near": "Tatchawan Kanitpong"
+   },
+   {
+    "name": "Drybar",
+    "products": 28,
+    "near": "Drybar"
+   },
+   {
+    "name": "Glow Recipe",
+    "products": 27,
+    "near": ""
+   }
+  ]
+ },
+ "lvmh": {
+  "brands": [
+   {
+    "slug": "benefit-cosmetics",
+    "name": "Benefit Cosmetics",
+    "resolved": true,
+    "qid": "Q2895769",
+    "label": "Benefit Cosmetics",
+    "sitelinks": 12,
+    "desc": "American cosmetics company"
+   },
+   {
+    "slug": "dior",
+    "name": "Parfums Christian Dior",
+    "resolved": true,
+    "qid": "Q542767",
+    "label": "Christian Dior",
+    "sitelinks": 56,
+    "desc": "French multinational luxury fashion house"
+   },
+   {
+    "slug": "fenty-beauty-rihanna",
+    "name": "Fenty Beauty",
+    "resolved": true,
+    "qid": "Q51135597",
+    "label": "Fenty Beauty",
+    "sitelinks": 16,
+    "desc": "cosmetics line by Rihanna"
+   },
+   {
+    "slug": "fresh",
+    "name": "Fresh",
+    "resolved": false,
+    "qid": "",
+    "label": "",
+    "sitelinks": 0,
+    "desc": ""
+   },
+   {
+    "slug": "givenchy",
+    "name": "Givenchy Beauty",
+    "resolved": true,
+    "qid": "Q759210",
+    "label": "Givenchy",
+    "sitelinks": 46,
+    "desc": "French luxury brand"
+   },
+   {
+    "slug": "guerlain",
+    "name": "Guerlain",
+    "resolved": true,
+    "qid": "Q1553251",
+    "label": "Guerlain",
+    "sitelinks": 22,
+    "desc": "French perfume, cosmetics, and skincare house"
+   },
+   {
+    "slug": "make-up-for-ever",
+    "name": "Make Up For Ever",
+    "resolved": true,
+    "qid": "Q17011854",
+    "label": "Make Up For Ever",
+    "sitelinks": 5,
+    "desc": "French cosmetics brand"
+   },
+   {
+    "slug": "marc-jacobs-beauty",
+    "name": "Marc Jacobs Beauty",
+    "resolved": false,
+    "qid": "",
+    "label": "",
+    "sitelinks": 0,
+    "desc": ""
+   },
+   {
+    "slug": "paco-rabanne",
+    "name": "Rabanne",
+    "resolved": true,
+    "qid": "Q129676852",
+    "label": "Rabanne",
+    "sitelinks": 5,
+    "desc": "French fashion house"
+   },
+   {
+    "slug": "patrick-ta",
+    "name": "Patrick Ta",
+    "resolved": true,
+    "qid": "Q105084363",
+    "label": "Patrick Ta",
+    "sitelinks": 1,
+    "desc": "American makeup artist"
+   },
+   {
+    "slug": "sephora-collection",
+    "name": "Sephora Collection",
+    "resolved": false,
+    "qid": "",
+    "label": "",
+    "sitelinks": 0,
+    "desc": ""
+   },
+   {
+    "slug": "sol-de-janeiro",
+    "name": "Sol de Janeiro",
+    "resolved": true,
+    "qid": "Q123501154",
+    "label": "Sol de Janeiro",
+    "sitelinks": 1,
+    "desc": "American skincare and fragrance brand"
+   }
+  ],
+  "resolved": 9,
+  "total": 12,
+  "products": 329
+ },
+ "serp": {
+  "queries": [
+   {
+    "q": "dior sauvage",
+    "sephora_pos": 7,
+    "sephora_rating": true,
+    "top3": [
+     "dior.com",
+     "dior.com",
+     "fragrantica.com"
+    ],
+    "pop_sellers": [
+     "Walmart - Fragrance Love",
+     "Macy's",
+     "FragranceNet.com",
+     "B Strands Collection",
+     "Walmart - JINOUTLET",
+     "Ulta Beauty",
+     "Macy's",
+     "FragranceNet.com",
+     "Wafa International",
+     "Walmart"
+    ],
+    "has_ai": true,
+    "ai_refs": [
+     "dior.com",
+     "reddit.com",
+     "dior.com",
+     "fragrantica.com",
+     "sephora.com",
+     "youtube.com",
+     "youtube.com",
+     "macys.com"
+    ],
+    "features": [
+     "ai_overview",
+     "google_reviews",
+     "images",
+     "knowledge_graph",
+     "organic",
+     "people_also_ask",
+     "popular_products",
+     "related_searches"
+    ]
+   },
+   {
+    "q": "miss dior",
+    "sephora_pos": 24,
+    "sephora_rating": true,
+    "top3": [
+     "dior.com",
+     "fragrantica.com",
+     "amazon.com"
+    ],
+    "pop_sellers": [
+     "Macy's",
+     "FragranceNet.com",
+     "Bloomingdale's",
+     "Macy's",
+     "Macy's",
+     "FragranceNet.com",
+     "Macy's",
+     "Macy's",
+     "FragranceNet.com",
+     "Macy's"
+    ],
+    "has_ai": true,
+    "ai_refs": [
+     "instagram.com",
+     "google.com",
+     "google.com",
+     "google.com"
+    ],
+    "features": [
+     "ai_overview",
+     "images",
+     "organic",
+     "people_also_ask",
+     "perspectives",
+     "popular_products",
+     "related_searches"
+    ]
+   },
+   {
+    "q": "fenty beauty foundation",
+    "sephora_pos": 5,
+    "sephora_rating": true,
+    "top3": [
+     "fentybeauty.com",
+     "fentybeauty.com",
+     "sephora.com"
+    ],
+    "pop_sellers": [
+     "Fenty Beauty",
+     "Sephora",
+     "Fenty Beauty",
+     "Fenty Beauty",
+     "Fenty Beauty",
+     "Glambot",
+     "Walmart - The Goods Distributor",
+     "Brigette's Boutique",
+     "Feel22",
+     "Henewaa Beauty Collective"
+    ],
+    "has_ai": false,
+    "ai_refs": [],
+    "features": [
+     "images",
+     "organic",
+     "people_also_ask",
+     "perspectives",
+     "popular_products",
+     "related_searches"
+    ]
+   },
+   {
+    "q": "benefit brow pencil",
+    "sephora_pos": 5,
+    "sephora_rating": true,
+    "top3": [
+     "benefitcosmetics.com",
+     "benefitcosmetics.com",
+     "sephora.com"
+    ],
+    "pop_sellers": [
+     "Benefit Cosmetics",
+     "Benefit Cosmetics",
+     "Sephora",
+     "Ulta Beauty",
+     "Benefit Cosmetics",
+     "Benefit Cosmetics",
+     "Macy's",
+     "Feel22",
+     "Ulta Beauty",
+     "Glambot"
+    ],
+    "has_ai": true,
+    "ai_refs": [
+     "benefitcosmetics.com",
+     "benefitcosmetics.com",
+     "amazon.com",
+     "benefitcosmetics.com",
+     "youtube.com",
+     "google.com",
+     "google.com",
+     "google.com"
+    ],
+    "features": [
+     "ai_overview",
+     "google_reviews",
+     "images",
+     "knowledge_graph",
+     "organic",
+     "people_also_ask",
+     "perspectives",
+     "popular_products",
+     "related_searches"
+    ]
+   },
+   {
+    "q": "make up for ever foundation",
+    "sephora_pos": 4,
+    "sephora_rating": false,
+    "top3": [
+     "makeupforever.com",
+     "sephora.com",
+     "macys.com"
+    ],
+    "pop_sellers": [
+     "Nordstrom",
+     "Sephora",
+     "Walmart - The Goods Distributor",
+     "Kohl's",
+     "irress beauty",
+     "Nordstrom",
+     "Make Up For Ever",
+     "Macy's",
+     "Sephora",
+     "Makeup"
+    ],
+    "has_ai": false,
+    "ai_refs": [],
+    "features": [
+     "google_reviews",
+     "images",
+     "knowledge_graph",
+     "organic",
+     "people_also_ask",
+     "perspectives",
+     "popular_products",
+     "related_searches",
+     "video"
+    ]
+   },
+   {
+    "q": "sol de janeiro brazilian bum bum cream",
+    "sephora_pos": 8,
+    "sephora_rating": true,
+    "top3": [
+     "soldejaneiro.com",
+     "amazon.com",
+     "soldejaneiro.com"
+    ],
+    "pop_sellers": [
+     "Sol de Janeiro",
+     "FragranceNet.com",
+     "Sol de Janeiro",
+     "Sol de Janeiro",
+     "Beautique",
+     "LaLa Daisy",
+     "Harrods",
+     "Cult Beauty",
+     "Selfridges",
+     "Sol de Janeiro"
+    ],
+    "has_ai": true,
+    "ai_refs": [
+     "soldejaneiro.com",
+     "soldejaneiro.com",
+     "sephora.com",
+     "us.oliveyoung.com",
+     "livethatglow.com",
+     "glamour.com",
+     "missljbeauty.com",
+     "google.com"
+    ],
+    "features": [
+     "ai_overview",
+     "google_reviews",
+     "images",
+     "knowledge_graph",
+     "organic",
+     "people_also_ask",
+     "popular_products",
+     "related_searches",
+     "video"
+    ]
+   },
+   {
+    "q": "guerlain perfume",
+    "sephora_pos": null,
+    "sephora_rating": false,
+    "top3": [
+     "ulta.com",
+     "dillards.com",
+     "whatscent.app"
+    ],
+    "pop_sellers": [
+     "Ulta Beauty",
+     "Nordstrom",
+     "Sephora",
+     "Guerlain",
+     "Nordstrom",
+     "Guerlain",
+     "Macy's",
+     "Bloomingdale's",
+     "Macy's",
+     "Guerlain"
+    ],
+    "has_ai": false,
+    "ai_refs": [],
+    "features": [
+     "discussions_and_forums",
+     "images",
+     "organic",
+     "people_also_ask",
+     "perspectives",
+     "popular_products"
+    ]
+   },
+   {
+    "q": "givenchy prisme libre",
+    "sephora_pos": null,
+    "sephora_rating": false,
+    "top3": [
+     "harrods.com",
+     "ebay.com",
+     "reddit.com"
+    ],
+    "pop_sellers": [
+     "Nordstrom",
+     "Sephora",
+     "Givenchy Beauty",
+     "Givenchy Beauty",
+     "FragranceNet.com",
+     "Bloomingdale's",
+     "Neiman Marcus",
+     "Givenchy Beauty",
+     "Givenchy Beauty",
+     "Givenchy Beauty"
+    ],
+    "has_ai": true,
+    "ai_refs": [],
+    "features": [
+     "ai_overview",
+     "discussions_and_forums",
+     "google_reviews",
+     "images",
+     "knowledge_graph",
+     "organic",
+     "people_also_ask",
+     "popular_products",
+     "related_searches",
+     "short_videos"
+    ]
+   },
+   {
+    "q": "dior lip glow",
+    "sephora_pos": 2,
+    "sephora_rating": true,
+    "top3": [
+     "dior.com",
+     "sephora.com",
+     "macys.com"
+    ],
+    "pop_sellers": [
+     "DIOR",
+     "DIOR",
+     "DIOR",
+     "DIOR",
+     "DIOR",
+     "DIOR",
+     "DIOR",
+     "DIOR",
+     "Sam's Club",
+     "Whatnot"
+    ],
+    "has_ai": false,
+    "ai_refs": [],
+    "features": [
+     "discussions_and_forums",
+     "google_reviews",
+     "images",
+     "knowledge_graph",
+     "organic",
+     "people_also_ask",
+     "popular_products",
+     "related_searches",
+     "short_videos"
+    ]
+   },
+   {
+    "q": "rouge dior lipstick",
+    "sephora_pos": 7,
+    "sephora_rating": false,
+    "top3": [
+     "dior.com",
+     "dior.com",
+     "dior.com"
+    ],
+    "pop_sellers": [
+     "DIOR",
+     "DIOR",
+     "DIOR",
+     "Ulta Beauty",
+     "nordstrom.com",
+     "Sephora",
+     "DIOR",
+     "DIOR",
+     "Ulta Beauty",
+     "bergdorfgoodman.com"
+    ],
+    "has_ai": true,
+    "ai_refs": [
+     "dior.com",
+     "sephora.com",
+     "dior.com",
+     "dior.com",
+     "dior.com",
+     "youtube.com",
+     "youtube.com",
+     "google.com"
+    ],
+    "features": [
+     "ai_overview",
+     "google_reviews",
+     "images",
+     "knowledge_graph",
+     "organic",
+     "people_also_ask",
+     "popular_products",
+     "related_searches",
+     "video"
+    ]
+   }
+  ],
+  "features": {
+   "images": 10,
+   "organic": 10,
+   "people_also_ask": 10,
+   "popular_products": 10,
+   "related_searches": 9,
+   "google_reviews": 7,
+   "knowledge_graph": 7,
+   "ai_overview": 6,
+   "perspectives": 5,
+   "video": 3,
+   "discussions_and_forums": 3,
+   "short_videos": 2
+  },
+  "n": 10,
+  "carouselAbsent": [
+   "dior sauvage",
+   "miss dior",
+   "sol de janeiro brazilian bum bum cream",
+   "dior lip glow"
+  ],
+  "aiQueries": 6,
+  "aiCitesSephora": 3
+ }
+}
