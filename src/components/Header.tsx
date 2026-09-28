@@ -4,6 +4,8 @@ const LINKS = [
   { id: "overview", label: "Overview" },
   { id: "carousel", label: "Product carousels" },
   { id: "ai", label: "AI overviews" },
+  { id: "markup", label: "Markup audit" },
+  { id: "industry", label: "Industry snapshot" },
   { id: "entities", label: "Brand entities" },
   { id: "lvmh", label: "LVMH brands" },
   { id: "scale", label: "Catalogue" },

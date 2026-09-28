@@ -58,3 +58,37 @@ export interface Analysis {
     aiCitesSephora: number;
   };
 }
+
+export interface Industry {
+  keywords: number;
+  volume: number;
+  urls: number;
+  read: number;
+  domains: number;
+  aiKeywords: number;
+  aiPct: number;
+  aiTop: { domain: string; n: number }[];
+  sephoraAi: number;
+  carouselKeywords: number;
+  carouselPct: number;
+  carouselSellers: { seller: string; n: number }[];
+  sephoraCarousel: number;
+  carouselTotal: number;
+  pageTypes: Record<string, number>;
+  byKind: Record<string, number>;
+  pdpByKind: Record<string, { n: number; product: number; offer: number }>;
+  pdpRows: { domain: string; kind: string; n: number; product: number; offer: number; rating: number }[];
+  types: Record<string, number>;
+  unread: number;
+}
+
+export interface Markup {
+  n: number;
+  from: string;
+  to: string;
+  invalid: number;
+  types: { type: string; pages: number; pct: number }[];
+  required: { prop: string; pages: number; pct: number; on: string }[];
+  recommended: { prop: string; pages: number; pct: number; note: string }[];
+  gtin: number;
+}

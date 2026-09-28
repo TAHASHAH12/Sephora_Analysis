@@ -37,12 +37,15 @@ export default function Scale() {
             </p>
           </div>
           <div className="card">
-            <h4>What we could not see</h4>
+            <h4>What we could and could not see</h4>
+            <p>
+              Product pages refuse automated requests, so the markup audit is built from stored
+              copies rather than a live crawl. That was enough to establish the template &mdash; see
+              the markup section &mdash; but not enough to measure coverage across the catalogue.
+            </p>
             <p style={{ marginBottom: 0 }}>
-              Product pages are served behind bot protection that returns an access-denied response to
-              anything that is not a browser, so this read is built from the public catalogue and from
-              live search results rather than from the product pages themselves. A full audit would
-              need either an allowlist or a session that behaves like a shopper.
+              The open question is not what a Sephora product page looks like. It is how many of the
+              9,841 look like the ones we read.
             </p>
           </div>
         </div>

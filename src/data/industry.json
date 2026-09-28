@@ -1,0 +1,191 @@
+{
+ "keywords": 63,
+ "volume": 8015000,
+ "urls": 454,
+ "read": 322,
+ "domains": 198,
+ "aiKeywords": 41,
+ "aiPct": 65,
+ "aiTop": [
+  {
+   "domain": "google.com",
+   "n": 33
+  },
+  {
+   "domain": "youtube.com",
+   "n": 16
+  },
+  {
+   "domain": "amazon.com",
+   "n": 13
+  },
+  {
+   "domain": "sephora.com",
+   "n": 7
+  },
+  {
+   "domain": "byrdie.com",
+   "n": 7
+  },
+  {
+   "domain": "reddit.com",
+   "n": 6
+  },
+  {
+   "domain": "allure.com",
+   "n": 6
+  },
+  {
+   "domain": "macys.com",
+   "n": 5
+  },
+  {
+   "domain": "nytimes.com",
+   "n": 5
+  },
+  {
+   "domain": "fragrantica.com",
+   "n": 4
+  },
+  {
+   "domain": "ulta.com",
+   "n": 4
+  },
+  {
+   "domain": "instagram.com",
+   "n": 3
+  }
+ ],
+ "sephoraAi": 7,
+ "carouselKeywords": 58,
+ "carouselPct": 92,
+ "carouselSellers": [
+  {
+   "seller": "Target",
+   "n": 113
+  },
+  {
+   "seller": "Ulta Beauty",
+   "n": 97
+  },
+  {
+   "seller": "Sephora",
+   "n": 95
+  },
+  {
+   "seller": "Walmart",
+   "n": 68
+  },
+  {
+   "seller": "Dyson Official",
+   "n": 42
+  },
+  {
+   "seller": "CHANEL",
+   "n": 41
+  },
+  {
+   "seller": "Fragrance Market",
+   "n": 38
+  },
+  {
+   "seller": "Macy's",
+   "n": 36
+  },
+  {
+   "seller": "Nordstrom",
+   "n": 27
+  },
+  {
+   "seller": "FragranceNet.com",
+   "n": 25
+  },
+  {
+   "seller": "The Ordinary",
+   "n": 25
+  },
+  {
+   "seller": "nordstrom.com",
+   "n": 18
+  },
+  {
+   "seller": "Instacart",
+   "n": 13
+  },
+  {
+   "seller": "FragranceX.com",
+   "n": 13
+  }
+ ],
+ "sephoraCarousel": 95,
+ "carouselTotal": 1351,
+ "pageTypes": {
+  "category / listing": 87,
+  "other": 324,
+  "product page": 43
+ },
+ "byKind": {
+  "brand site": 235,
+  "editorial / reference": 44,
+  "retailer": 86,
+  "UGC / social": 89
+ },
+ "pdpByKind": {
+  "brand site": {
+   "n": 21,
+   "product": 76,
+   "offer": 67
+  },
+  "retailer": {
+   "n": 9,
+   "product": 56,
+   "offer": 56
+  },
+  "UGC / social": {
+   "n": 1,
+   "product": 0,
+   "offer": 0
+  }
+ },
+ "pdpRows": [
+  {
+   "domain": "ulta.com",
+   "kind": "retailer",
+   "n": 4,
+   "product": 100,
+   "offer": 100,
+   "rating": 100
+  },
+  {
+   "domain": "walmart.com",
+   "kind": "retailer",
+   "n": 3,
+   "product": 0,
+   "offer": 0,
+   "rating": 0
+  }
+ ],
+ "types": {
+  "ListItem": 125,
+  "BreadcrumbList": 111,
+  "Organization": 110,
+  "ImageObject": 63,
+  "WebPage": 57,
+  "Person": 51,
+  "Product": 46,
+  "ItemList": 42,
+  "Offer": 39,
+  "WebSite": 34,
+  "Brand": 33,
+  "Article": 30,
+  "PostalAddress": 30,
+  "SearchAction": 29,
+  "CollectionPage": 28,
+  "Answer": 26,
+  "Question": 26,
+  "FAQPage": 25,
+  "AggregateRating": 23,
+  "ContactPoint": 19
+ },
+ "unread": 132
+}

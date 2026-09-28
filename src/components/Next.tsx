@@ -1,13 +1,13 @@
 const STEPS = [
   {
-    n: "01", title: "Find out why the carousels are missing Sephora", effort: "Days",
+    n: "01", title: "Close the GTIN gap", effort: "Days to scope",
     detail:
-      "Absence from a shopping carousel on a product Sephora demonstrably stocks is a feed or markup problem, not a ranking problem. It is diagnosable quickly and it is the finding with money directly attached.",
+      "Not one product page we read carries a GTIN. It is how Google matches a retailer's offer to the same product elsewhere, and the two retailers ahead of Sephora in the carousels are GTIN-complete feed merchants. Fastest route to the carousel positions they are missing.",
   },
   {
-    n: "02", title: "Audit the product pages properly", effort: "One to two weeks",
+    n: "02", title: "Add GTINs, then measure coverage across the catalogue", effort: "One to two weeks",
     detail:
-      "With access, read every product page's structured data and measure coverage, validity and richness across the catalogue. This is the part that could not be done from outside and it is where the carousel answer probably lives.",
+      "The template is already right; the identifier that matches their offer to the product is missing. Add GTIN, then with access confirm how many of the 9,841 products actually carry the full template rather than the sample we could read.",
   },
   {
     n: "03", title: "Build the brand entity layer", effort: "Ongoing",

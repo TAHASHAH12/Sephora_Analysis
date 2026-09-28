@@ -19,8 +19,12 @@ export default function Method() {
             <h4>What was measured</h4>
             <ul className="clean">
               <li>
-                Ten live US search results for commercial product queries, captured with their SERP
-                features, carousel sellers and AI citations.
+                Live US search results across 63 keywords, captured with their SERP features,
+                carousel sellers and AI citations.
+              </li>
+              <li>
+                Product-page structured data on a sample of 21 pages, checked
+                property by property against Google&rsquo;s merchant listing requirements.
               </li>
               <li>
                 Every brand in Sephora&rsquo;s published catalogue resolved against the live Wikidata
@@ -35,8 +39,9 @@ export default function Method() {
             <h4>What it is not</h4>
             <ul className="clean">
               <li>
-                Not a markup audit. Product pages could not be read directly, so nothing here claims
-                what structured data those pages carry.
+                Not a <em>full</em> markup audit. Product-page structured data was read, but from
+                {" "}stored copies and on a sample of {21} pages, so it
+                establishes the template rather than measuring coverage across 9,841 products.
               </li>
               <li>
                 Not a full keyword study. Ten queries, chosen to concentrate on LVMH brands.

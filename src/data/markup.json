@@ -1,0 +1,154 @@
+{
+ "n": 21,
+ "from": "20250709",
+ "to": "20260821",
+ "invalid": 0,
+ "types": [
+  {
+   "type": "ItemList",
+   "pages": 21,
+   "pct": 100
+  },
+  {
+   "type": "Offer",
+   "pages": 21,
+   "pct": 100
+  },
+  {
+   "type": "Organization",
+   "pages": 21,
+   "pct": 100
+  },
+  {
+   "type": "Product",
+   "pages": 21,
+   "pct": 100
+  },
+  {
+   "type": "SiteNavigationElement",
+   "pages": 21,
+   "pct": 100
+  },
+  {
+   "type": "BreadcrumbList",
+   "pages": 20,
+   "pct": 95
+  },
+  {
+   "type": "ListItem",
+   "pages": 20,
+   "pct": 95
+  },
+  {
+   "type": "Review",
+   "pages": 20,
+   "pct": 95
+  },
+  {
+   "type": "Brand",
+   "pages": 18,
+   "pct": 86
+  },
+  {
+   "type": "ProductGroup",
+   "pages": 18,
+   "pct": 86
+  },
+  {
+   "type": "VideoObject",
+   "pages": 12,
+   "pct": 57
+  },
+  {
+   "type": "Answer",
+   "pages": 1,
+   "pct": 5
+  },
+  {
+   "type": "FAQPage",
+   "pages": 1,
+   "pct": 5
+  },
+  {
+   "type": "Person",
+   "pages": 1,
+   "pct": 5
+  },
+  {
+   "type": "Question",
+   "pages": 1,
+   "pct": 5
+  }
+ ],
+ "required": [
+  {
+   "prop": "name",
+   "pages": 21,
+   "pct": 100,
+   "on": "Product"
+  },
+  {
+   "prop": "image",
+   "pages": 21,
+   "pct": 100,
+   "on": "Product"
+  },
+  {
+   "prop": "offers",
+   "pages": 21,
+   "pct": 100,
+   "on": "Product"
+  },
+  {
+   "prop": "price",
+   "pages": 21,
+   "pct": 100,
+   "on": "Offer"
+  },
+  {
+   "prop": "priceCurrency",
+   "pages": 21,
+   "pct": 100,
+   "on": "Offer"
+  },
+  {
+   "prop": "availability",
+   "pages": 21,
+   "pct": 100,
+   "on": "Offer"
+  }
+ ],
+ "recommended": [
+  {
+   "prop": "sku",
+   "pages": 18,
+   "pct": 86,
+   "note": "internal identifier \u2014 present, but only Sephora can resolve it"
+  },
+  {
+   "prop": "brand",
+   "pages": 3,
+   "pct": 14,
+   "note": "on the Product node itself"
+  },
+  {
+   "prop": "aggregateRating",
+   "pages": 3,
+   "pct": 14,
+   "note": "star rating eligibility"
+  },
+  {
+   "prop": "description",
+   "pages": 3,
+   "pct": 14,
+   "note": "used in merchant listings"
+  },
+  {
+   "prop": "gtin",
+   "pages": 0,
+   "pct": 0,
+   "note": "the identifier Google uses to match the same product across retailers"
+  }
+ ],
+ "gtin": 0
+}
